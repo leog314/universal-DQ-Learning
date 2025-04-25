@@ -1,7 +1,7 @@
 # universal-DQ-Learning
 =======
 **Requirements:** 
-    Python (<=3.11)
+    Python and pip
     
 to install all needed libraries run:
 
