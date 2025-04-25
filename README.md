@@ -32,7 +32,7 @@ To modify the environment, take a look on the appropriate website (https://gymna
     action_space = 2 # if the website states something like "Action Space: Discrete(2)"
     state_shape = 4 # use 4 for something like: Box([-4.8 -inf -0.41887903 -inf], [4.8 inf 0.41887903 inf], (4,), float32) (size 4)
     
-    build = "CartPole-v1" # use whetever the website states (the latest version should be best)
+    build = "CartPole-v1" # use whatever the website states (the latest version should be best)
 
     # you might also want to change the filename of torch.save()
 
