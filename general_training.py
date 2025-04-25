@@ -57,7 +57,4 @@ for epoch in range(epochs):
 
     print(f"Average loss in epoch {epoch}: {average_loss/step}... and average reward in this epoch: {average_rew/step}, {agent.decay}... Got it for {step} steps")
     
-    with open("data.txt", "a") as f:
-        f.write(f"\n{average_loss/step},{average_rew/step}")
-    
-    torch.save(agent.main_network, "pong.pt")
+    torch.save(agent.main_network, "models/lunar.pt")
